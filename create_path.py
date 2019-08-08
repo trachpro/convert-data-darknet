@@ -56,7 +56,12 @@ def create_data(path_to_file, data_type='train'):
             iw = data_int[2]
             ih = data_int[3]
 
-            if x != 0 and y != 0:
+            if x == 0:
+                x = 0.00001
+            if y == 0:
+                y = 0.00001
+
+            if iw != 0 and ih != 0:
                 data_f.write('0 {} {} {} {}\n'.format(str(float(x)/w), str(float(y)/h), str(float(iw)/w), str(float(ih)/h)))
             else:
                 print(line)
