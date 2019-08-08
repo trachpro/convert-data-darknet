@@ -1,0 +1,5 @@
+classes= 1  
+train  = /home/tupm/data/wider_face/data/train.txt
+valid  = /home/tupm/data/wider_face/data/val.txt
+names = /home/tupm/data/wider_face/cfg/obj.names  
+backup = /home/tupm/data/wider_face/cfg/backup

@@ -1,0 +1,10 @@
+WIDER_test.zip
+WIDER_test/
+WIDER_train.zip
+WIDER_train/
+WIDER_val.zip
+WIDER_val/
+bad.list
+wider_face_split.zip
+wider_face_split/
+data/
